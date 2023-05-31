@@ -1,0 +1,40 @@
+body{
+    background-color: darkred;
+}
+p{
+    color:aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+nav{
+    background-color: darkred;
+    height:60px;
+    }
+
+nav ul {
+    text-align:center;
+    padding-top: 20px;
+    list-style-type: none;
+    }
+
+nav ul li{
+    display: inline-block;
+    }   
+
+nav ul li a{
+    color: aliceblue;
+    border: 1px solid rgb(248, 225, 195);
+    padding: 15px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 3px 2px 5px gray;
+    font-style: italic;
+    font-weight: bold;}
+
+nav a:hover{background-color: rgb(248, 225, 195);}
+
